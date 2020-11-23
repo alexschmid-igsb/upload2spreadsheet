@@ -52,7 +52,7 @@ Fields `csv.idColumn` and `spreadsheet.idColumn` describe column names and will 
 
 Field `mappings.source` specifies the source column from the csv file and `mappings.target` the target column in the spreadsheet.
 
-The field `onNull` specifies the default behavior for `null` values: `"KEEP"` keeps the existing values and ignores `null` values while `"DELETE"` deletes all values with `null` entries.
+The field `onNull` specifies the default behavior for `null` values: `KEEP` keeps the existing values and ignores `null` values while `DELETE` deletes all values with `null` entries.
 
 ## Run
 ```
