@@ -1,0 +1,16 @@
+{
+  "name": "upload2spreadsheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "upload2spreadsheet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload2spreadsheet": "node src/upload2spreadsheet"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.14.1",
+    "googleapis": "^39.2.0"
+  }
+}

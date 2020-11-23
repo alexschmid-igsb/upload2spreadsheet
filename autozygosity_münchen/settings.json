@@ -1,0 +1,23 @@
+{
+    "csv": {
+        "fileName": "autozygosity_münchen.csv",
+        "idColumn": "id"
+    },
+    "spreadsheet": {
+        "spreadsheetId": "1k8zBWi2xC9h9JNYrhCTSb-hb4EnUlYz7cc8dskdEydg",
+        "sheetName": "Munich",
+        "idColumn": "D"
+    },
+    "mappings": [
+        {
+            "source": "id",
+            "target": "G"
+        },
+        {
+            "source": "autozygosity",
+            "target": "AZ",
+            "transformer": "calculateValue.js"
+        }
+    ],
+    "onNull": "KEEP"
+}
