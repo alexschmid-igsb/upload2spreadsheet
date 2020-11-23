@@ -55,3 +55,6 @@ Field `mappings.source` specifies the source column from the csv file and `mappi
 The field `onNull` specifies the default behavior for `null` values: `"KEEP"` keeps the existing values and ignores `null` values while `"DELETE"` deletes all values with `null` entries.
 
 ## Run
+```
+npm run upload2spreadsheet ./autozygosity_münchen/settings.json
+```
