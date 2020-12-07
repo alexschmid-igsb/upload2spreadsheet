@@ -207,8 +207,9 @@ async function main(auth) {
         let mapping = settings.mappings[iMapping]
         let mappingValues = values.get(iMapping)
 
-        // console.log(iMapping)
-        // console.log(JSON.stringify(mappingValues,null,2))
+        let cnt = 0
+        mappingValues.map(value => value ? cnt++ : null)
+        console.log("" + mapping.source + " --> " + mapping.target + ": " + cnt + " non-null values")
 
         var range = settings.spreadsheet.sheetName + '!' + mapping.target + STARTING_ROW + ':' + mapping.target
 
